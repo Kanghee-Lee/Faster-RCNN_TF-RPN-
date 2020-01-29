@@ -6,6 +6,7 @@ In Fast R-CNN, region proposal is proceeded with selective search algorithm whic
 
 So generating RoI(region of interest) was the bottleneck.
 
+
 By sharing conv feature map in RPN(region proposal network), we can generate RoI from conv feature map.
 
 It is computed by gpu, while generation of RoI in Fast R-CNN is computed by cpu.
